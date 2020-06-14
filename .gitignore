@@ -1,2 +1,4 @@
 node_modules
-src/generated/*
+src/generated/data
+src/generated/initialVector
+src/generated/secretKey
