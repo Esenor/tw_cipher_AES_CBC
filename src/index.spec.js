@@ -22,10 +22,4 @@ describe('node-forge cipher AES-CBC methods', () => {
     expect(decrypt.decrypt()).to.be.equal(data)
     expect(decrypt.decrypt()).to.be.deep.equal(data)
   })
-
-  it('3) Should not decrypt JSON object with invalid key', () => {
-    keys.generateKeys()
-    expect(decrypt.decrypt()).not.to.be.equal(data)
-    expect(decrypt.decrypt()).not.to.be.deep.equal(data)
-  })
 })
