@@ -1,0 +1,6 @@
+version: '2'
+services:
+  php_rsa:
+    image: davask/d-php-openssl:latest
+    volumes:
+      - ./src/:/var/www:ro
